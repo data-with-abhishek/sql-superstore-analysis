@@ -1,4 +1,3 @@
-
 -- 1. Overall Business Performance
 
 SELECT
