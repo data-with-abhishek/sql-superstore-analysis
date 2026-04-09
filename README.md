@@ -1,72 +1,60 @@
-## 📌 Summary
-- Total Sales: $2.26M  
-- Total Orders: 4,922  
-- Best Region: West  
-- Worst Region: South
-
- ## 📊 Key Insights
-
-- **West region leads performance (31.4% contribution)**  
-  → Consistently drives both revenue and growth, indicating a strong and mature market  
-
-- **South region underperforms (17.2%)**  
-  → Lower order volume (not pricing issue), suggesting demand-side challenges  
-
-- **Technology category delivers highest revenue per order**  
-  → Acts as a key high-value revenue driver  
-
-- **Office Supplies generate high order volume but low revenue per order**  
-  → Indicates low-value, high-frequency transactions  
-
-- **Sales declined in 2016 (-4.26%)**, followed by strong recovery in 2017–18  
-  → Reflects business resilience and strategic correction  
-
-- **Recent growth is increasingly volume-driven**  
-  → Risk of decreasing average order value over time  
-
-- **Revenue is concentrated among a limited set of high-value customers**  
-  → Opportunity for retention but risk of dependency  
+# 📊 SQL Superstore Sales Analysis
 
 ---
 
-## 🚀 Business Implications
-
-- Improve performance in low-performing regions (South)  
-- Increase average order value through pricing or bundling strategies  
-- Reduce dependency on a small group of high-value customers  
-- Strengthen high-value product categories like Technology  
+## 🔍 Problem
+The business lacked visibility into regional performance, product contribution, and growth trends, making it difficult to take data-driven decisions.
 
 ---
 
-## 🏆 Product-Level Analysis
-
-### 🔝 Top Products by Sales (Revenue)
-
-- Canon imageCLASS 2200 Advanced Copier generated the highest revenue  
-- High-value products (copiers, binding machines, printers) dominate top sales  
-- Indicates that **a small number of premium products drive major revenue**
+## 📊 Dataset
+- Superstore dataset  
+- 4,922 orders  
+- $2.26M total sales  
 
 ---
 
-### 📦 Top Products by Order Volume
-
-- Staples, envelopes, and paper products have highest order frequency  
-- These are **low-value but high-frequency items**  
-- Indicates strong demand for everyday office consumables  
-
----
-
-### ⚖️ Key Insight
-
-- **High revenue ≠ High demand products**
-- Business has:
-  - High-value, low-frequency products (Revenue drivers)  
-  - Low-value, high-frequency products (Volume drivers)  
+## 🧠 Analysis Performed
+- Region-wise performance analysis  
+- Category and product-level analysis  
+- Sales trend analysis (year-wise)  
+- Revenue vs order volume comparison  
 
 ---
 
-### 🚀 Business Implication
+## 📊 Key Insights
 
-- Focus on **upselling high-value products**  
-- Bundle low-value items to increase order value  
-- Optimize inventory for fast-moving products (e.g., Staples, paper)  
+- **West region leads (31.4%)** — strong and mature market  
+- **South underperforms (17.2%)** — demand-side issue (low orders)  
+- **Technology category = highest revenue per order**  
+- **Office Supplies = high volume but low value**  
+- **Sales dropped in 2016 (-4.26%)**, then recovered  
+- **Growth is becoming volume-driven** → risk to AOV  
+- **Revenue concentrated among few customers** → dependency risk  
+
+---
+
+## 🏆 Product-Level Insights
+
+- High-value products (copiers, printers) drive revenue  
+- Low-value items (staples, paper) drive order volume  
+- Clear gap between **revenue drivers vs volume drivers**
+
+---
+
+## 💡 Business Implications
+
+- Improve low-performing regions  
+- Increase average order value (bundling/pricing)  
+- Reduce dependency on high-value customers  
+- Focus on high-margin categories  
+
+---
+
+## 🛠 Tools Used
+SQL | Excel  
+
+---
+
+## 🚀 Conclusion
+This project highlights how SQL can be used not just for querying data, but for deriving meaningful business insights and supporting strategic decisions.
