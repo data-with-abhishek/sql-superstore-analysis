@@ -1,4 +1,10 @@
-## 📊 Key Insights
+## 📌 Summary
+- Total Sales: $2.26M  
+- Total Orders: 4,922  
+- Best Region: West  
+- Worst Region: South
+
+ ## 📊 Key Insights
 
 - **West region leads performance (31.4% contribution)**  
   → Consistently drives both revenue and growth, indicating a strong and mature market  
@@ -29,3 +35,38 @@
 - Increase average order value through pricing or bundling strategies  
 - Reduce dependency on a small group of high-value customers  
 - Strengthen high-value product categories like Technology  
+
+---
+
+## 🏆 Product-Level Analysis
+
+### 🔝 Top Products by Sales (Revenue)
+
+- Canon imageCLASS 2200 Advanced Copier generated the highest revenue  
+- High-value products (copiers, binding machines, printers) dominate top sales  
+- Indicates that **a small number of premium products drive major revenue**
+
+---
+
+### 📦 Top Products by Order Volume
+
+- Staples, envelopes, and paper products have highest order frequency  
+- These are **low-value but high-frequency items**  
+- Indicates strong demand for everyday office consumables  
+
+---
+
+### ⚖️ Key Insight
+
+- **High revenue ≠ High demand products**
+- Business has:
+  - High-value, low-frequency products (Revenue drivers)  
+  - Low-value, high-frequency products (Volume drivers)  
+
+---
+
+### 🚀 Business Implication
+
+- Focus on **upselling high-value products**  
+- Bundle low-value items to increase order value  
+- Optimize inventory for fast-moving products (e.g., Staples, paper)  
