@@ -18,7 +18,9 @@ FROM superstore
 GROUP BY Region;
 
 
--- Identify Best & Worst Region based on Total Sales
+
+-- Identify Region prerformance based on Total Sales
+
 WITH sales AS (
     SELECT
         Region,
@@ -26,17 +28,23 @@ WITH sales AS (
         SUM(Sales) AS total_sales
     FROM superstore
     GROUP BY Region
+),
+ranked AS (
+    SELECT *,
+        RANK() OVER (ORDER BY total_sales DESC) AS rnk_desc,
+        RANK() OVER (ORDER BY total_sales ASC) AS rnk_asc
+    FROM sales
 )
 SELECT
     Region,
     total_orders,
     total_sales,
     CASE
-        WHEN total_sales = MAX(total_sales) OVER () THEN 'Best Performer'
-        WHEN total_sales = MIN(total_sales) OVER () THEN 'Worst Performer'
+        WHEN rnk_desc = 1 THEN 'Best Performer'
+        WHEN rnk_asc = 1 THEN 'Worst Performer'
         ELSE 'Normal Performer'
     END AS performance_flag
-FROM sales
+FROM ranked
 ORDER BY total_sales DESC;
 
 
