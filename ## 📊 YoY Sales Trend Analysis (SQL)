@@ -1,1 +1,32 @@
+-- YoY Change in Total Sales
+WITH records AS (
+    SELECT
+        YEAR(Order_Date) AS order_year,
+        COUNT(DISTINCT Order_ID) AS total_orders,
+        SUM(Sales) AS total_sales
+    FROM superstore
+    GROUP BY YEAR(Order_Date)
+),
+lagged AS (
+    SELECT *,
+        LAG(total_orders) OVER (ORDER BY order_year) AS prev_orders,
+        LAG(total_sales) OVER (ORDER BY order_year) AS prev_sales
+    FROM records
+)
+SELECT
+    order_year,
+    total_orders,
+    total_sales,
+    COALESCE(total_orders - prev_orders, 0) AS yoy_order_change,
+    COALESCE(total_sales - prev_sales, 0) AS yoy_sales_change,
+    CONCAT(
+        ROUND(COALESCE((total_orders - prev_orders) * 1.0 / NULLIF(prev_orders, 0), 0) * 100, 2),
+        '%'
+    ) AS yoy_order_pct,
+    CONCAT(
+        ROUND(COALESCE((total_sales - prev_sales) * 1.0 / NULLIF(prev_sales, 0), 0) * 100, 2),
+        '%'
+    ) AS yoy_sales_pct
+FROM lagged;
+
 
