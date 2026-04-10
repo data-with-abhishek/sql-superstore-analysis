@@ -15,7 +15,7 @@ The business lacked visibility into regional performance, product contribution, 
 ---
 
 ## 🧠 Analysis Performed
-- Region-wise performance analysis  
+- Identified top and underperforming regions
 - Category and product-level analysis  
 - Sales trend analysis (year-wise)  
 - Revenue vs order volume comparison  
@@ -42,7 +42,7 @@ The business lacked visibility into regional performance, product contribution, 
 
 ---
 
-## 💡 Business Implications
+## 💡 Business Impact
 
 - Increase focus on South region to improve order volume
 - Promote Technology category to maximize revenue per order
@@ -57,3 +57,5 @@ SQL | Excel
 
 ## 🚀 Conclusion
 This project highlights how SQL can be used not just for querying data, but for deriving meaningful business insights and supporting strategic decisions.
+
+📂 Full SQL queries with detailed analysis are available in the [`/queries`](queries/) folder.
