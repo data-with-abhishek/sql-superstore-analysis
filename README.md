@@ -20,6 +20,14 @@ The business lacked visibility into regional performance, product contribution, 
 - Sales trend analysis (year-wise)  
 - Revenue vs order volume comparison  
 
+## 📊 Region Performance Analysis
+![Region Performance](images/region-performance.png)
+
+## 📊 Regional Contribution (%)
+![Contribution](images/region-contribution.png)
+
+## 📊 YoY Sales Trend Analysis
+![YoY](images/yoy-sales-analysis.png)
 ---
 
 ## 📊 Key Insights
