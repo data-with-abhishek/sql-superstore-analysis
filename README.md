@@ -20,14 +20,17 @@ The business lacked visibility into regional performance, product contribution, 
 - Sales trend analysis (year-wise)  
 - Revenue vs order volume comparison  
 
+The following analysis outputs demonstrate key business insights derived using SQL:  
+
 ## 📊 Region Performance Analysis
-![Region Performance](images/region-performance.png)
+<img src="images/region-performance.png" width="700"/>
 
 ## 📊 Regional Contribution (%)
-![Contribution](images/region-contribution.png)
+<img src="images/region-contribution.png" width="700"/>
 
 ## 📊 YoY Sales Trend Analysis
-![YoY](images/yoy-sales-analysis.png)
+<img src="images/yoy-sales-analysis.png" width="700"/>
+
 ---
 
 ## 📊 Key Insights
@@ -59,7 +62,8 @@ The business lacked visibility into regional performance, product contribution, 
 ---
 
 ## 🛠 Tools Used
-SQL | Excel  
+- SQL (SQL Server)
+- Excel
 
 ---
 
