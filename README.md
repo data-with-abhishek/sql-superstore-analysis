@@ -44,10 +44,9 @@ The business lacked visibility into regional performance, product contribution, 
 
 ## 💡 Business Implications
 
-- Improve low-performing regions  
-- Increase average order value (bundling/pricing)  
-- Reduce dependency on high-value customers  
-- Focus on high-margin categories  
+- Increase focus on South region to improve order volume
+- Promote Technology category to maximize revenue per order
+- Reduce dependency on top customers to minimize risk 
 
 ---
 
