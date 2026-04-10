@@ -23,14 +23,13 @@ The business lacked visibility into regional performance, product contribution, 
 The following analysis outputs demonstrate key business insights derived using SQL:  
 
 ## 📊 Region Performance Analysis
-<img src="images/region-performance.png" width="700"/>
+![Region Performance](images/region-performance.png)
 
 ## 📊 Regional Contribution (%)
-<img src="images/region-contribution.png" width="700"/>
+![Contribution](images/region-contribution.png)
 
 ## 📊 YoY Sales Trend Analysis
-<img src="images/yoy-sales-analysis.png" width="700"/>
-
+![YoY](images/yoy-sales-analysis.png)
 ---
 
 ## 📊 Key Insights
