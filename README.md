@@ -62,7 +62,6 @@ The following analysis outputs demonstrate key business insights derived using S
 
 ## 🛠 Tools Used
 - SQL (SQL Server)
-- Excel
 
 ---
 
