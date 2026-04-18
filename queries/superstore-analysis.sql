@@ -78,7 +78,7 @@ FROM superstore
 GROUP BY Region, Category;
 
 
--- Root Cause of Bad Performance (South Region - Lowest Category)
+-- Lowest category in South
 SELECT TOP 1
     Category,
     COUNT(DISTINCT Order_ID) AS total_orders,
